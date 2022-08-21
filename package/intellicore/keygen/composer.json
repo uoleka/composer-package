@@ -1,0 +1,23 @@
+{
+    "name": "intellicore/keygen",
+    "description": "Generates random integer keys",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "uoleka"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Intellicore\\Keygen\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "Providers": [
+                "Intellicore\\Keygen\\KeygenServiceProvider"
+            ]
+        }
+    }
+}
